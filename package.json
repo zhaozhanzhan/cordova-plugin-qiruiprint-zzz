@@ -1,0 +1,41 @@
+{
+    "name": "cordova-plugin-qiruiprint-zzz",
+    "version": "1.0.1",
+    "deprecated": false,
+    "description": "this is a qirui print plugin",
+    "engines": [{
+        "name": "cordova",
+        "version": ">=1.0.0"
+    }],
+    "bugs": {
+        "url": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz/issues"
+    },
+    "bundleDependencies": false,
+    "cordova": {
+        "id": "cordova-plugin-qiruiprint-zzz",
+        "platforms": [
+            "android"
+        ]
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "print",
+        "qirui",
+        "plugin"
+    ],
+    "author": "799316652@qq.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz/issues"
+    },
+    "homepage": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz#readme"
+}

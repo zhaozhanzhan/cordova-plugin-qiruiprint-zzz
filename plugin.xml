@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-qiruiprint-zzz" version="1.0.1" 
+  xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>QiRuiPrint</name>
+  <js-module name="QiRuiPrint" src="www/QiRuiPrint.js">
+    <clobbers target="cordova.plugins.qiruiPrint" />
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="QiRuiPrint">
+        <param name="android-package" value="com.zzz.QiRuiPrint" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml" />
+
+    <lib-file src="src/android/libs/QRSDK_Ver2.2.0.jar" />
+    <lib-file src="src/android/libs/gson-2.8.5.jar" />
+    <resource-file src ="src/android/libs/jniLibs/arm64-v8a/libQR386SDK.so" target="jniLibs/arm64-v8a/libQR386SDK.so" />
+    <resource-file src ="src/android/libs/jniLibs/armeabi/libQR386SDK.so" target="jniLibs/armeabi/libQR386SDK.so" />
+    <resource-file src ="src/android/libs/jniLibs/armeabi-v7a/libQR386SDK.so" target="jniLibs/armeabi-v7a/libQR386SDK.so" />
+    <resource-file src ="src/android/libs/jniLibs/mips/libQR386SDK.so" target="jniLibs/mips/libQR386SDK.so" />
+    <resource-file src ="src/android/libs/jniLibs/mips64/libQR386SDK.so" target="jniLibs/mips64/libQR386SDK.so" />
+    <resource-file src ="src/android/libs/jniLibs/x86/libQR386SDK.so" target="jniLibs/x86/libQR386SDK.so" />
+    <resource-file src ="src/android/libs/jniLibs/x86_64/libQR386SDK.so" target="jniLibs/x86_64/libQR386SDK.so" />
+
+    <source-file src="src/android/QiRuiPrint.java" target-dir="src/com/zzz" />
+  </platform>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="QiRuiPrint">
+        <param name="ios-package" value="QiRuiPrint" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/QiRuiPrint.m" />
+  </platform>
+</plugin>
