@@ -1,12 +1,28 @@
 {
-    "name": "cordova-plugin-qiruiprint-zzz",
-    "version": "1.0.1",
-    "deprecated": false,
-    "description": "this is a qirui print plugin",
-    "engines": [{
-        "name": "cordova",
-        "version": ">=1.0.0"
-    }],
+    "_from": "cordova-plugin-qiruiprint-zzz",
+    "_inBundle": false,
+    "_integrity": "sha512-wSB3sa2FGPF4Xg38f32HEcGf+2xoStSmVtTAK2IEqKVO3UJ1C/cOOPNEsVyV6662Hj69sCbQ9IGAjiGU2RFb5Q==",
+    "_location": "/cordova-plugin-qiruiprint-zzz",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "cordova-plugin-qiruiprint-zzz",
+        "name": "cordova-plugin-qiruiprint-zzz",
+        "escapedName": "cordova-plugin-qiruiprint-zzz",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/cordova-plugin-qiruiprint-zzz/-/cordova-plugin-qiruiprint-zzz-1.0.2.tgz",
+    "_shasum": "8d989e6160c2edcd86701c974d8446b8ba5ae781",
+    "_spec": "cordova-plugin-qiruiprint-zzz",
+    "_where": "F:\\AppWorkspace\\LaBaoGongAPP",
+    "author": "799316652@qq.com",
     "bugs": {
         "url": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz/issues"
     },
@@ -14,28 +30,35 @@
     "cordova": {
         "id": "cordova-plugin-qiruiprint-zzz",
         "platforms": [
-            "android"
+            "android",
+            "ios",
+            "wp8",
+            "windows"
         ]
     },
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "deprecated": false,
+    "description": "A File Opener Plugin for Cordova. (The Original Version)",
+    "engines": [{
+        "name": "cordova",
+        "version": ">=1.0.2"
+    }],
+    "homepage": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz#readme",
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "cordova-wp8",
+        "cordova-windows"
+    ],
+    "license": "MIT",
+    "name": "cordova-plugin-qiruiprint-zzz",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz.git"
     },
-    "keywords": [
-        "ecosystem:cordova",
-        "cordova-android",
-        "print",
-        "qirui",
-        "plugin"
-    ],
-    "author": "799316652@qq.com",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz/issues"
-    },
-    "homepage": "https://github.com/zhaozhanzhan/cordova-plugin-qiruiprint-zzz#readme"
+    "version": "1.0.2",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }
